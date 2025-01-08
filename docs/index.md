@@ -10,7 +10,7 @@ It operates on Solana's blockchain infrastructure and utilizes advanced AI model
 
 Here's the breakdown
 
-```ts twoslash
+```plaintext
 PyIq_AI/
 ├── src/
 │   ├── agents.py           # AI agent implementations
