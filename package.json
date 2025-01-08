@@ -1,0 +1,25 @@
+{
+  "name": "hono.dev",
+  "version": "3.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview",
+    "format": "yarn prettier --check ./docs ./examples index.md",
+    "format:fix": "yarn prettier --check --write ./docs ./examples index.md"
+  },
+  "repository": "git@github.com:honojs/website.git",
+  "author": "Yusuke Wada <yusuke@kamawada.com>",
+  "private": true,
+  "license": "MIT",
+  "devDependencies": {
+    "@shikijs/vitepress-twoslash": "^1.23.0",
+    "hono": "^4.6.3",
+    "prettier": "^3.3.2",
+    "typescript": "^5.6.2",
+    "vitepress": "1.5.0",
+    "vitepress-plugin-group-icons": "^1.0.4",
+    "vue": "^3.3.4"
+  }
+}
